@@ -24,10 +24,10 @@ namespace TimeDiff
 				TimeSpan diff = span2 - span1;
 				total += diff;
 
-				Console.WriteLine(arg + " -> " + diff.Hours + ":" + diff.Minutes);
+				Console.WriteLine(string.Format("{0} -> {1}:{2}", arg, diff.Hours.ToString("00"), diff.Minutes.ToString("00")));
 			}
 
-			Console.WriteLine("Total: " + total.Hours + ":" + total.Minutes);
+			Console.WriteLine("Total: " + total.Hours.ToString("00") + ":" + total.Minutes.ToString("00"));
 		}
 	}
 }

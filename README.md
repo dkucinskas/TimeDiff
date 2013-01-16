@@ -1,7 +1,7 @@
 TimeDiff
 ========
 
-This is console tool for work hours counting.
+This is quick and dirty console tool for work hours counting.
 
 For example:
 ```
